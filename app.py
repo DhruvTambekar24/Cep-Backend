@@ -14,6 +14,10 @@ CORS(app)  # Allow cross-origin requests
 api_key = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=api_key)
 
+@app.route('/', methods=['GET'])
+def home():
+    return "Flask backend is live!"
+
 @app.route('/extract-data', methods=['POST'])
 def extract_data():
     if 'image' not in request.files:
