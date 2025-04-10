@@ -1,0 +1,21 @@
+{
+    "book_number": 1234,
+    "registration_number": 5678,
+    "name": "John Doe",
+    "age": 45,
+    "date_of_birth": "10/02/1979",
+    "sex": "General",
+    "caste": null,
+    "mobile_number": "9876543210",
+    "aadhar_number": "1234 5678 9101",
+    "address": "123 Main Street, Cityville",
+    "date_of_admission": "01/03/2024",
+    "mother's_name": "Jane Doe",
+    "relatives": "0+",
+    "blood_group": "MB",
+    "leprosy_type": "Under MDT",
+    "mdt_status": "Under MDT",
+    "deformity_status": "None",
+    "duration_of_disease": "6 months",
+    "previous_occupation": "Farmer"
+}
